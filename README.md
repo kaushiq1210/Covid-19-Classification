@@ -62,21 +62,22 @@ Install all dependencies using:
 
 ```bash
 pip install tensorflow numpy scikit-learn pyqt5
-Optional for GPU support:
-
-bash
-Copy code
 pip install tensorflow-gpu
+```
+
 🖥️ How to Run
 1️⃣ Clone the Repository
-bash
-Copy code
+
+```bash
+
 git clone https://github.com/<your-username>/COVID-19-Detection-GUI.git
 cd COVID-19-Detection-GUI
+```
+
 2️⃣ Prepare Dataset
 Organize your dataset as shown below:
 
-Copy code
+```bash
 TrainingDataset/
  ├── COVID/
  └── Non-COVID/
@@ -84,19 +85,23 @@ TrainingDataset/
 TestingDataset/
  ├── COVID/
  └── Non-COVID/
+```
+
 Each folder should contain relevant chest X-ray images (.jpg, .png, .jpeg).
 
 3️⃣ Run the Application
-bash
-Copy code
+
+```bash
 python main.py
+```
+
 🧭 GUI Overview
-Component	Description
-🖼️ Image Display	Displays the selected X-ray image
-📂 Browse Image	Opens file browser to choose an image
-⚙️ Training	Trains CNN model on given dataset
-🔍 Classify	Predicts whether image is COVID or Non-COVID
-📊 Result Box	Shows prediction label & confidence score
+Component Description
+🖼️ Image Display Displays the selected X-ray image
+📂 Browse Image Opens file browser to choose an image
+⚙️ Training Trains CNN model on given dataset
+🔍 Classify Predicts whether image is COVID or Non-COVID
+📊 Result Box Shows prediction label & confidence score
 
 Results & Screenshots
 
@@ -106,5 +111,3 @@ Results & Screenshots
 
 ![Covid Classfication]
 (Covid-19-Classification/assets/Covid.png)
-
-```
