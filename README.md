@@ -98,7 +98,7 @@ python main.py
 ## Results & Screenshots
 
 ```scss
-![Confusion Matrix](assets/Confusion Matrix.png)
+![Confusion Matrix](assets/Confusion_Matrix.png)
 ```
 
 ```scss
@@ -106,6 +106,5 @@ python main.py
 ```
 
 ```scss
-![Covid Classification]
-(assets/Covid.png)
+![Covid Classification](assets/Covid.png)
 ```
