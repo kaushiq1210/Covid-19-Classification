@@ -17,30 +17,6 @@ The application is built using **Python**, **TensorFlow/Keras**, and **PyQt5** f
 
 ---
 
-## 🧩 Project Structure
-
-COVID-19-Detection-GUI/
-│
-├── main.py # Main application script
-├── model.json # Saved CNN model architecture
-├── model.weights.h5 # Trained model weights
-├── class_indices.json # Class label mapping
-│
-├── TrainingDataset/ # Training data (organized by class folders)
-│ ├── COVID/
-│ └── Non-COVID/
-│
-├── TestingDataset/ # Testing data (organized by class folders)
-│ ├── COVID/
-│ └── Non-COVID/
-│
-└── README.md # Project documentation
-
-yaml
-Copy code
-
----
-
 ## 🧠 Model Architecture
 
 The CNN model consists of:
@@ -97,8 +73,19 @@ python main.py
 
 ## Results & Screenshots
 
-![Confusion Matrix](assets/Confusion_Matrix.png)
+## 🖼️ Results & Screenshots
 
-![Normal Classification](assets/Normal.png)
+<p align="center">
+  <img src="assets/Confusion_Matrix.png" width="500"><br>
+  <em>Confusion Matrix</em>
+</p>
 
-![Covid Classification](assets/Covid.png)
+<p align="center">
+  <img src="assets/Normal.png" width="500"><br>
+  <em>Normal Classification Result</em>
+</p>
+
+<p align="center">
+  <img src="assets/Covid.png" width="500"><br>
+  <em>COVID Classification Result</em>
+</p>
