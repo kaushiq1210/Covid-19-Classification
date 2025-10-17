@@ -95,19 +95,11 @@ Each folder should contain relevant chest X-ray images (.jpg, .png, .jpeg).
 python main.py
 ```
 
-🧭 GUI Overview
-Component Description
-🖼️ Image Display Displays the selected X-ray image
-📂 Browse Image Opens file browser to choose an image
-⚙️ Training Trains CNN model on given dataset
-🔍 Classify Predicts whether image is COVID or Non-COVID
-📊 Result Box Shows prediction label & confidence score
+## Results & Screenshots
 
-Results & Screenshots
+-\*\*Confusion Matrix(assets/Confusion Matrix.png)
 
-![Confusion Matrix](Covid-19-Classification/assets/Confusion Matrix.png)
+-\*\*Normal Classification(assets/Normal.png)
 
-![Normal Classification](Covid-19-Classification/assets/Normal.png)
-
-![Covid Classfication]
-(Covid-19-Classification/assets/Covid.png)
+-\*\*Covid Classification
+(assets/Covid.png)
